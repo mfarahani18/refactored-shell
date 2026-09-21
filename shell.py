@@ -227,24 +227,24 @@ class Shell:
     def run_pipeline(self, parts):
         return self.pipeline_manager.run(parts)
 
-    def _split_pipeline(self, parts):
-        return self.pipeline_manager.split(parts)
+    # def _split_pipeline(self, parts):
+    #     return self.pipeline_manager.split(parts)
 
-    def _run_first_pipeline_command(self, command, args, processes):
-        return self.pipeline_manager.run_first(
-            command, args, processes
-        )
+    # def _run_first_pipeline_command(self, command, args, processes):
+    #     return self.pipeline_manager.run_first(
+    #         command, args, processes
+    #     )
 
-    def _run_middle_pipeline_command(
-        self, command, args, previous_pipe, processes
-    ):
-        return self.pipeline_manager.run_middle(
-            command, args, previous_pipe, processes
-        )
+    # def _run_middle_pipeline_command(
+    #     self, command, args, previous_pipe, processes
+    # ):
+    #     return self.pipeline_manager.run_middle(
+    #         command, args, previous_pipe, processes
+    #     )
 
-    def _run_last_pipeline_command(
-        self, command, args, previous_pipe, processes
-    ):
-        return self.pipeline_manager.run_last(
-            command, args, previous_pipe, processes
-        )
+    # def _run_last_pipeline_command(
+    #     self, command, args, previous_pipe, processes
+    # ):
+    #     return self.pipeline_manager.run_last(
+    #         command, args, previous_pipe, processes
+    #     )
